@@ -1,0 +1,51 @@
+.tab-content {
+    background: white;
+    padding: 3em;
+    min-height: 150px;
+    border-radius: 12px;
+    box-shadow: 0 16px 22px rgba(0, 0, 0, 0.5);
+    margin-top: -28px;
+
+    .row {
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: $color-secondary;
+    background-color: white;
+    border-color: white;
+    border-radius: 12px 12px 0 0;
+    padding-bottom: 1em;
+}
+
+
+
+
+.icons__tab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: $color-dark;
+    padding-top: 2em;
+
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+
+
+}
+
+     li .fab {
+        margin: 0em 1em 0em 0em;
+        font-size: 1.5rem;
+    }
+
+  
+}

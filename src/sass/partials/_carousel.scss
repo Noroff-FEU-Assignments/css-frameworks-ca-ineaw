@@ -1,0 +1,25 @@
+
+.carousel {
+margin-top: 2.3rem;
+
+.carousel-indicators {
+    button {
+        background-color: white;
+        height: 30px;
+        width: 30px;
+        margin: 0 0.5rem;
+        border-radius: 2px;
+        opacity: 10;
+  
+        &.active {
+          background-color: $color-primary;
+      
+      }
+    }
+  } 
+}
+
+  .carousel-control-prev,
+  .carousel-control-next {
+      display: none;
+  }

@@ -1,0 +1,35 @@
+.accordion {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    background-color: $color-white;
+    border-radius: 20px;
+
+    
+    .accordion-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2em;
+    }
+
+
+.accordion-button {
+        background: $color-white;
+        color: $color-primary;
+        font-family: $font-family-base;
+         
+        &.accordion-button:not(.collapsed) {
+        border-bottom: 1px solid $color-primary;
+
+        }
+    }
+
+    .accordion-button::after {
+        display: none;
+    }
+}
+
+.img-thumbnail {
+    border: none;
+}

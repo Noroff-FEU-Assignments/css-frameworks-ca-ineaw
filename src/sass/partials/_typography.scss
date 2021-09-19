@@ -1,0 +1,59 @@
+
+h1 {
+    padding: 2em 0 1em 0;
+}
+
+h5 {
+    font-family: $font-family-base;
+    
+    font-weight: 500;
+    color: $color-dark;
+}
+
+
+.input-group-text {
+    color: $color-medium;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+
+#basic-navbar-nav {
+
+    a {
+        color: $color-dark;
+        text-decoration: none;
+        margin-left: 1em;
+        padding: 0.2em 1em;
+        border-radius: 5px;
+
+        &.active {
+            background: white;
+        }
+    }
+
+
+}
+
+.navbar-light .navbar-brand {
+    color: $color-primary;
+    font-family: $headings-font-family;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+
+    &:hover {
+        color: $color-primary;
+ 
+    }
+}
+
+.nav-tabs .nav-link {
+color: #767676;
+border: none;
+    &.active {
+        color: $color-primary;
+    }
+}

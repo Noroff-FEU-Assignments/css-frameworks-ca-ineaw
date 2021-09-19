@@ -1,0 +1,45 @@
+// custom
+$color-secondary: #EFEFEF;
+$color-light: #EFEFEF;
+$color-primary: #e92569;
+$color-white: #ffffff;
+$color-medium: #767676;
+$color-dark: #0a0a0a;
+
+$color-bg: radial-gradient(#ffffff, #e5e5e5);
+
+
+// bootstrap
+$theme-colors: (
+    "primary":    $color-primary,
+    "secondary":  $color-secondary,
+    "light":      $color-light,
+    "dark":      $color-dark
+
+  );
+
+
+$font-family-base: "Lato", sans-serif;
+$headings-font-family: "playfair display", serif;
+$headings-color: $color-primary;
+
+
+$body-color: $color-medium;
+
+body {
+  background: radial-gradient(#ffffff, #e5e5e5);
+  list-style: none;
+}
+
+
+
+@import "~bootstrap/scss/bootstrap";
+
+
+@import "./partials/buttons";
+@import "./partials/form";
+@import "./partials/tabs";
+@import "./partials/typography";
+@import "./partials/accordion";
+@import "./partials/carousel";
+@import "./partials/news";

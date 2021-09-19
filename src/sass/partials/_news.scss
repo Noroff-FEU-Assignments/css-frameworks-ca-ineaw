@@ -1,0 +1,26 @@
+.card, .pagination {
+    margin-bottom: 2em;
+}
+
+
+.pagination {
+
+    .page-link{
+    color: $color-primary;
+    border: 1px solid $color-primary;
+    }
+
+    .page-item.active .page-link {
+    background-color: $color-primary;
+    border: 1px solid $color-primary;
+    color: white;
+}
+
+}
+
+
+.card .btn {
+border-right-width: 2rem;
+border-right-color: $color-medium;
+background: $color-primary;
+}

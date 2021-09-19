@@ -1,0 +1,31 @@
+.form-group {
+    margin-bottom: 0.5rem;
+}
+
+
+.contact__form {
+    background-color: $color-light;
+    padding: 2rem;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.4);
+    color: $color-medium;
+    margin-bottom: 2rem;
+}
+
+
+#basic-navbar-nav {
+    padding: 0.25rem 0.75rem;
+    
+input {
+        border: transparent;
+}
+button {
+    background-color: $color-primary;
+    margin-left: -35px;
+    border-radius: 0px 3px 3px 0px;
+    color: $color-white;
+}
+}
+
+.contact__address {
+    width: 120px;
+}
