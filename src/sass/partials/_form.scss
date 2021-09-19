@@ -9,6 +9,16 @@
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.4);
     color: $color-medium;
     margin-bottom: 2rem;
+
+    .form-check-input {
+        background: $color-primary;
+        border: 10px solid $color-primary;
+        margin-right: 0.4em;
+    }
+
+    .form-check-label {
+        font-size: 0.8rem;
+    }
 }
 
 

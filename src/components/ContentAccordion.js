@@ -12,9 +12,17 @@ function ContentAccordion() {
     <Accordion.Body>
     Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.   
     <Image src="images/tab-1.jpg" thumbnail/>
-    <i class="fab fa-facebook-f"></i>
-  <i class="fab fa-twitter"></i>
-
+    <div className="icons__acc">
+  <p>SHARE</p>
+  <ul>
+    <li> 
+        <i class="fab fa-facebook-f"></i>
+    </li>
+    <li>  
+        <i class="fab fa-twitter"></i>
+    </li>
+</ul>
+</div>
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item eventKey="1">
@@ -22,9 +30,17 @@ function ContentAccordion() {
     <Accordion.Body>
     Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.   
     <Image src="images/tab-2.jpg" thumbnail/>
-    <i class="fab fa-facebook-f"></i>
-  <i class="fab fa-twitter"></i>
-
+    <div className="icons__acc">
+  <p>SHARE</p>
+  <ul>
+    <li> 
+        <i class="fab fa-facebook-f"></i>
+    </li>
+    <li>  
+        <i class="fab fa-twitter"></i>
+    </li>
+</ul>
+</div>
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item eventKey="2">
@@ -32,9 +48,17 @@ function ContentAccordion() {
     <Accordion.Body>
     Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.   
     <Image src="images/tab-3.jpg" thumbnail/>
-    <i class="fab fa-facebook-f"></i>
-  <i class="fab fa-twitter"></i>
-
+    <div className="icons__acc">
+  <p>SHARE</p>
+  <ul>
+    <li> 
+        <i class="fab fa-facebook-f"></i>
+    </li>
+    <li>  
+        <i class="fab fa-twitter"></i>
+    </li>
+</ul>
+</div>
     </Accordion.Body>
   </Accordion.Item>
 </Accordion>
